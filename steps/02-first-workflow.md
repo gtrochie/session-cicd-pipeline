@@ -87,8 +87,7 @@ Add a step that fails on purpose and watch it go red:
 
 ```yaml
     steps:
-      - run: echo "about to fail on purpose"
-      - run: exit 1               # this forces a failure
+      - run: echo "about to fail on purpose              # this forces a failure
       - run: echo "you will NEVER see this line"
 ```
 
