@@ -15,6 +15,7 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
+          cache: maven
       - run: mvn test
 
   build-jar:
