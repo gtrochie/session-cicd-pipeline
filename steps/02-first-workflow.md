@@ -19,11 +19,11 @@ Put this inside it:
 # Our very first workflow. One job that just prints a message.
 name: First Pipeline
 
-on: push              # run this whenever anyone pushes
+on: push              # run this whenever anyone pushes ....
 
 jobs:
   say-hello:
-    runs-on: ubuntu-latest      # use a GitHub-hosted Ubuntu runner
+    runs-on: ubuntu-latest      # use a GitHub-hosted Ubuntu runner try it oe
     steps:
       - run: echo "Hello from the pipeline!"
       - run: echo "This ran on a GitHub runner, not my laptop."
