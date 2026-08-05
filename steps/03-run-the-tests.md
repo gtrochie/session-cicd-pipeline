@@ -60,7 +60,8 @@ jobs:
 ```
 
 Note the improved `on:` block — it now runs on pushes to `main` **and** on pull requests
-targeting `main`. That's the standard setup.
+targeting `main`. That's the standard setup.for practice
+
 
 Push it:
 ```bash
