@@ -26,4 +26,5 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
+          cache: maven
       - run: mvn package -DskipTests    # skip tests here; run-tests already did them
