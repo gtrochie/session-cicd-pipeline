@@ -29,3 +29,7 @@ jobs:
           java-version: '21'
           cache: maven
       - run: mvn package -DskipTests    # skip tests here; run-tests already did them
+      - uses: actions/upload-artifact@v4
+        with:
+          name: app-jar
+          path: target/*-jar-with-dependencies.jar
